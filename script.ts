@@ -1,5 +1,5 @@
-import { TezosBTC } from '@airgap/coinlib-core'
-import { UnsignedTezosTransaction } from '@airgap/coinlib-core'
+import { TezosBTC } from '@zarclays/zgap-coinlib-core'
+import { UnsignedTezosTransaction } from '@zarclays/zgap-coinlib-core'
 const protocol = new TezosBTC()
 const unsignedTx: UnsignedTezosTransaction = {
   transaction: {

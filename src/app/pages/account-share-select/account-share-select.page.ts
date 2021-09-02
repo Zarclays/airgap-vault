@@ -1,5 +1,5 @@
-import { UIAction, UIActionStatus, UiEventService, UIResource, UIResourceStatus } from '@airgap/angular-core'
-import { AirGapWalletStatus, IACMessageDefinitionObjectV3 } from '@airgap/coinlib-core'
+import { UIAction, UIActionStatus, UiEventService, UIResource, UIResourceStatus } from '@zarclays/zgap-angular-core'
+import { AirGapWalletStatus, IACMessageDefinitionObjectV3 } from '@zarclays/zgap-coinlib-core'
 import { Component, OnDestroy } from '@angular/core'
 import { AlertOptions } from '@ionic/core'
 import { Store } from '@ngrx/store'

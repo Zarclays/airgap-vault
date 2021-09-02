@@ -1,4 +1,4 @@
-import { IACHandlerStatus, IACMessageTransport, PermissionsService, QrScannerService } from '@airgap/angular-core'
+import { IACHandlerStatus, IACMessageTransport, PermissionsService, QrScannerService } from '@zarclays/zgap-angular-core'
 import { PercentPipe } from '@angular/common'
 import { Component, Inject, NgZone, ViewChild } from '@angular/core'
 import { Platform } from '@ionic/angular'

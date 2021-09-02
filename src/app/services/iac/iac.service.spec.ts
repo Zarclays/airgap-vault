@@ -3,7 +3,7 @@ import { TestBed } from '@angular/core/testing'
 import { IACService } from './iac.service'
 
 import { UnitHelper } from '../../../../test-config/unit-test-helper'
-import { STATUS_BAR_PLUGIN, SPLASH_SCREEN_PLUGIN, APP_PLUGIN, CLIPBOARD_PLUGIN } from '@airgap/angular-core'
+import { STATUS_BAR_PLUGIN, SPLASH_SCREEN_PLUGIN, APP_PLUGIN, CLIPBOARD_PLUGIN } from '@zarclays/zgap-angular-core'
 import { ModalController, NavController, NavParams, Platform } from '@ionic/angular'
 import {
   ClipboardMock,

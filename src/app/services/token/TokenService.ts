@@ -1,4 +1,4 @@
-import { ethTokens, Token } from '@airgap/angular-core'
+import { ethTokens, Token } from '@zarclays/zgap-angular-core'
 import { Injectable } from '@angular/core'
 import {
   EthereumERC20ProtocolConfig,
@@ -8,8 +8,8 @@ import {
   IAirGapTransaction,
   SignedTransaction,
   UnsignedTransaction
-} from '@airgap/coinlib-core'
-import { SubProtocolSymbols } from '@airgap/coinlib-core/utils/ProtocolSymbols'
+} from '@zarclays/zgap-coinlib-core'
+import { SubProtocolSymbols } from '@zarclays/zgap-coinlib-core/utils/ProtocolSymbols'
 
 @Injectable({
   providedIn: 'root'

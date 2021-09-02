@@ -1,4 +1,4 @@
-import { BaseStorage } from '@airgap/angular-core'
+import { BaseStorage } from '@zarclays/zgap-angular-core'
 import { Injectable } from '@angular/core'
 import { Storage } from '@ionic/storage'
 

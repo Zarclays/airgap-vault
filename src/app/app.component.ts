@@ -5,13 +5,13 @@ import {
   ProtocolService,
   SPLASH_SCREEN_PLUGIN,
   STATUS_BAR_PLUGIN
-} from '@airgap/angular-core'
-import { NetworkType, TezosProtocolNetwork, TezosSaplingExternalMethodProvider } from '@airgap/coinlib-core'
+} from '@zarclays/zgap-angular-core'
+import { NetworkType, TezosProtocolNetwork, TezosSaplingExternalMethodProvider } from '@zarclays/zgap-coinlib-core'
 import {
   TezosSaplingProtocolOptions,
   TezosShieldedTezProtocolConfig
-} from '@airgap/coinlib-core/protocols/tezos/sapling/TezosSaplingProtocolOptions'
-import { TezosShieldedTezProtocol } from '@airgap/coinlib-core/protocols/tezos/sapling/TezosShieldedTezProtocol'
+} from '@zarclays/zgap-coinlib-core/protocols/tezos/sapling/TezosSaplingProtocolOptions'
+import { TezosShieldedTezProtocol } from '@zarclays/zgap-coinlib-core/protocols/tezos/sapling/TezosShieldedTezProtocol'
 import { HttpClient } from '@angular/common/http'
 import { AfterViewInit, Component, Inject, NgZone } from '@angular/core'
 import { AppPlugin, AppUrlOpen, SplashScreenPlugin, StatusBarPlugin, StatusBarStyle } from '@capacitor/core'

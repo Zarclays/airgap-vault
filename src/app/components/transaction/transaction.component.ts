@@ -1,4 +1,4 @@
-import { IAirGapTransaction, ProtocolSymbols } from '@airgap/coinlib-core'
+import { IAirGapTransaction, ProtocolSymbols } from '@zarclays/zgap-coinlib-core'
 import { Component, Input, OnInit } from '@angular/core'
 import { Observable } from 'rxjs'
 

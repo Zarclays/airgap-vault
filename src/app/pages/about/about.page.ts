@@ -1,7 +1,7 @@
 import { Component, Inject } from '@angular/core'
 
 import { ErrorCategory, handleErrorLocal } from '../../services/error-handler/error-handler.service'
-import { APP_INFO_PLUGIN, AppInfoPlugin } from '@airgap/angular-core'
+import { APP_INFO_PLUGIN, AppInfoPlugin } from '@zarclays/zgap-angular-core'
 
 @Component({
   selector: 'airgap-about',

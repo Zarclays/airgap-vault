@@ -1,6 +1,12 @@
-import { flattened } from '@airgap/angular-core'
-import { AccountShareResponse, AirGapWallet, AirGapWalletStatus, IACMessageDefinitionObjectV3, IACMessageType } from '@airgap/coinlib-core'
-import { generateId } from '@airgap/coinlib-core/serializer-v3/utils/generateId'
+import { flattened } from '@zarclays/zgap-angular-core'
+import {
+  AccountShareResponse,
+  AirGapWallet,
+  AirGapWalletStatus,
+  IACMessageDefinitionObjectV3,
+  IACMessageType
+} from '@zarclays/zgap-coinlib-core'
+import { generateId } from '@zarclays/zgap-coinlib-core/serializer-v3/utils/generateId'
 
 import { Injectable } from '@angular/core'
 

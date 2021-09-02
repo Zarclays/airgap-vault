@@ -1,9 +1,9 @@
 {
-  "name": "airgap-vault",
-  "description": "A secure crypto wallet",
-  "version": "1.0.0",
-  "author": "Papers.ch <contact@papers.ch>",
-  "homepage": "https://papers.ch/",
+  "name": "@zarclays/zgap-vault",
+  "description": "A secure crypto wallet vault",
+  "version": "0.0.1",
+  "author": "Zarclays <info@zarclays.com> (https://zgap.zarclays.com)",
+  "homepage": "https://www.zgap.zarclays.com",
   "private": true,
   "main": "electron/main.js",
   "scripts": {
@@ -32,9 +32,9 @@
     "apply-diagnostic-modules": "node apply-diagnostic-modules.js"
   },
   "dependencies": {
-    "@airgap/angular-core": "0.0.15",
-    "@airgap/angular-ngrx": "0.0.15",
-    "@airgap/coinlib-core": "^0.11.7",
+    "@zarclays/zgap-angular-core": "0.0.24",
+    "@zarclays/zgap-angular-ngrx": "0.0.24",
+    "@zarclays/zgap-coinlib-core": "^0.11.12",
     "@airgap/sapling-wasm": "0.0.6",
     "@angular/common": "^11.2.9",
     "@angular/core": "^11.2.9",

@@ -1,4 +1,4 @@
-import { PermissionsService } from '@airgap/angular-core'
+import { PermissionsService } from '@zarclays/zgap-angular-core'
 import { Platform } from '@ionic/angular'
 
 import { IEntropyGenerator } from '../entropy/IEntropyGenerator'

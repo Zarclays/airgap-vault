@@ -1,5 +1,5 @@
-import { UiEventService } from '@airgap/angular-core'
-import { IACMessageDefinitionObjectV3 } from '@airgap/coinlib-core'
+import { UiEventService } from '@zarclays/zgap-angular-core'
+import { IACMessageDefinitionObjectV3 } from '@zarclays/zgap-coinlib-core'
 import { Injectable } from '@angular/core'
 import { first } from 'rxjs/operators'
 

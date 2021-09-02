@@ -1,4 +1,4 @@
-import { UIAction, UIActionStatus, UiEventService, UIResource, UIResourceStatus } from '@airgap/angular-core'
+import { UIAction, UIActionStatus, UiEventService, UIResource, UIResourceStatus } from '@zarclays/zgap-angular-core'
 import { Component, OnDestroy } from '@angular/core'
 import { AlertOptions } from '@ionic/core'
 import { Store } from '@ngrx/store'

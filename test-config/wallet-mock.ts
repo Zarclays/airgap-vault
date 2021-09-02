@@ -1,6 +1,6 @@
-import { AirGapMarketWallet, IAirGapTransaction, getProtocolByIdentifier } from '@airgap/coinlib-core'
+import { AirGapMarketWallet, IAirGapTransaction, getProtocolByIdentifier } from '@zarclays/zgap-coinlib-core'
 import BigNumber from 'bignumber.js'
-import { MainProtocolSymbols } from '@airgap/coinlib-core'
+import { MainProtocolSymbols } from '@zarclays/zgap-coinlib-core'
 
 class WalletMock {
   public ethWallet: AirGapMarketWallet = Object.assign(

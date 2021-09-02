@@ -1,6 +1,6 @@
-import { DeeplinkService } from '@airgap/angular-core'
+import { DeeplinkService } from '@zarclays/zgap-angular-core'
 import { Injectable } from '@angular/core'
-import { AirGapWallet, UnsignedTransaction, MessageSignResponse, IACMessageDefinitionObjectV3 } from '@airgap/coinlib-core'
+import { AirGapWallet, UnsignedTransaction, MessageSignResponse, IACMessageDefinitionObjectV3 } from '@zarclays/zgap-coinlib-core'
 
 import { Secret } from '../../models/secret'
 import { assertNever } from '../../utils/utils'

@@ -1,6 +1,6 @@
 /**************** Alert ****************/
 
-import { AirGapWallet } from '@airgap/coinlib-core'
+import { AirGapWallet } from '@zarclays/zgap-coinlib-core'
 
 export interface ParanoiaInfoAlert {
   type: 'paranoiaInfo'

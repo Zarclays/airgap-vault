@@ -9,7 +9,7 @@ import { SecretsService } from '../../services/secrets/secrets.service'
 
 import { SecretEditPopoverComponent } from './secret-edit-popover/secret-edit-popover.component'
 import { TranslateService } from '@ngx-translate/core'
-import { ClipboardService } from '@airgap/angular-core'
+import { ClipboardService } from '@zarclays/zgap-angular-core'
 
 export enum SecretEditAction {
   SET_RECOVERY_KEY

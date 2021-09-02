@@ -1,4 +1,4 @@
-import { AirGapWallet, IACMessageDefinitionObjectV3 } from '@airgap/coinlib-core'
+import { AirGapWallet, IACMessageDefinitionObjectV3 } from '@zarclays/zgap-coinlib-core'
 
 export interface SignTransactionInfo {
   wallet: AirGapWallet

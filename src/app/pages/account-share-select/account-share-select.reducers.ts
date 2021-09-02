@@ -1,4 +1,4 @@
-import { generateGUID, UIAction, UIActionStatus, UIResource, UIResourceStatus } from '@airgap/angular-core'
+import { generateGUID, UIAction, UIActionStatus, UIResource, UIResourceStatus } from '@zarclays/zgap-angular-core'
 import { createFeatureSelector, createReducer, createSelector, on } from '@ngrx/store'
 
 import * as fromRoot from '../../app.reducers'

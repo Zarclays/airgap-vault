@@ -1,4 +1,4 @@
-import { IACMessageDefinitionObjectV3 } from '@airgap/coinlib-core'
+import { IACMessageDefinitionObjectV3 } from '@zarclays/zgap-coinlib-core'
 import { createAction, props } from '@ngrx/store'
 
 import { Secret } from '../../models/secret'

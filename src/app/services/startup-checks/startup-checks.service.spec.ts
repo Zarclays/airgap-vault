@@ -1,4 +1,4 @@
-import { STATUS_BAR_PLUGIN, SPLASH_SCREEN_PLUGIN } from '@airgap/angular-core'
+import { STATUS_BAR_PLUGIN, SPLASH_SCREEN_PLUGIN } from '@zarclays/zgap-angular-core'
 import { TestBed, waitForAsync } from '@angular/core/testing'
 import { ModalController, NavController, NavParams, Platform } from '@ionic/angular'
 import { Storage } from '@ionic/storage'

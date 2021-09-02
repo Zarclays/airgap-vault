@@ -1,5 +1,5 @@
-import { assertNever, UIAction, UIActionStatus, UiEventService, UIResource, UIResourceStatus } from '@airgap/angular-core'
-import { IAirGapTransaction, ProtocolSymbols } from '@airgap/coinlib-core'
+import { assertNever, UIAction, UIActionStatus, UiEventService, UIResource, UIResourceStatus } from '@zarclays/zgap-angular-core'
+import { IAirGapTransaction, ProtocolSymbols } from '@zarclays/zgap-coinlib-core'
 import { Component, OnDestroy } from '@angular/core'
 import { ModalController } from '@ionic/angular'
 import { AlertOptions, LoadingOptions, ModalOptions, OverlayEventDetail } from '@ionic/core'

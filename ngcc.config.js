@@ -1,7 +1,7 @@
 module.exports = {
   packages: {
-    '@airgap/angular-core': {
-      ignorableDeepImportMatchers: [/@ionic-native\//, /coinlib-core\//]
+    '@zarclays/zgap-angular-core': {
+      ignorableDeepImportMatchers: [/@ionic-native\//, /zgap-coinlib-core\//]
     }
   }
 }

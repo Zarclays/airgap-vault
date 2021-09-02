@@ -1,4 +1,4 @@
-import { AirGapWallet } from '@airgap/coinlib-core'
+import { AirGapWallet } from '@zarclays/zgap-coinlib-core'
 
 import { Secret } from '../models/secret'
 

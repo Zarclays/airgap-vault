@@ -6,7 +6,7 @@ import {
   ProtocolSymbols,
   SignedTransaction,
   UnsignedTransaction
-} from '@airgap/coinlib-core'
+} from '@zarclays/zgap-coinlib-core'
 
 export enum Mode {
   SIGN_TRANSACTION = 0,

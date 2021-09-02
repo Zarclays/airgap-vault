@@ -6,7 +6,7 @@ import { Secret } from '../../models/secret'
 import { ErrorCategory, handleErrorLocal } from '../../services/error-handler/error-handler.service'
 import { NavigationService } from '../../services/navigation/navigation.service'
 import { SecretsService } from '../../services/secrets/secrets.service'
-import { ClipboardService, IACMessageTransport, SerializerService } from '@airgap/angular-core'
+import { ClipboardService, IACMessageTransport, SerializerService } from '@zarclays/zgap-angular-core'
 import { IACService } from 'src/app/services/iac/iac.service'
 
 @Component({

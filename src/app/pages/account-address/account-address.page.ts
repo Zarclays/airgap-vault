@@ -1,5 +1,5 @@
-import { ClipboardService, UiEventService } from '@airgap/angular-core'
-import { AirGapWallet, IACMessageDefinitionObjectV3 } from '@airgap/coinlib-core'
+import { ClipboardService, UiEventService } from '@zarclays/zgap-angular-core'
+import { AirGapWallet, IACMessageDefinitionObjectV3 } from '@zarclays/zgap-coinlib-core'
 import { Component } from '@angular/core'
 import { PopoverController } from '@ionic/angular'
 

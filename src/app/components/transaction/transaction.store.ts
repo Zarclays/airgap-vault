@@ -1,5 +1,5 @@
-import { sumAirGapTxValues } from '@airgap/angular-core'
-import { IAirGapTransaction, ProtocolSymbols } from '@airgap/coinlib-core'
+import { sumAirGapTxValues } from '@zarclays/zgap-angular-core'
+import { IAirGapTransaction, ProtocolSymbols } from '@zarclays/zgap-coinlib-core'
 import { Injectable } from '@angular/core'
 import { ComponentStore } from '@ngrx/component-store'
 import BigNumber from 'bignumber.js'

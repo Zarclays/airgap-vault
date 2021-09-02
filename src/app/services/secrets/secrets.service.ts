@@ -1,4 +1,4 @@
-import { Either, merged, ProtocolService } from '@airgap/angular-core'
+import { Either, merged, ProtocolService } from '@zarclays/zgap-angular-core'
 import {
   AirGapWallet,
   AirGapWalletStatus,
@@ -6,7 +6,7 @@ import {
   MainProtocolSymbols,
   ProtocolSymbols,
   SerializedAirGapWallet
-} from '@airgap/coinlib-core'
+} from '@zarclays/zgap-coinlib-core'
 import { Injectable } from '@angular/core'
 import { AlertController, LoadingController } from '@ionic/angular'
 import * as bip32 from 'bip32'

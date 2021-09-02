@@ -5,7 +5,7 @@ import {
   ProtocolService,
   sumAirGapTxValues,
   TransactionService
-} from '@airgap/angular-core'
+} from '@zarclays/zgap-angular-core'
 import {
   AirGapWallet,
   IACMessageDefinitionObjectV3,
@@ -19,7 +19,7 @@ import {
   TezosCryptoClient,
   TezosSaplingProtocol,
   UnsignedTransaction
-} from '@airgap/coinlib-core'
+} from '@zarclays/zgap-coinlib-core'
 import { Injectable } from '@angular/core'
 import { Actions, createEffect, ofType } from '@ngrx/effects'
 import { Action, Store } from '@ngrx/store'

@@ -1,4 +1,4 @@
-import { AirGapWallet, AirGapWalletStatus } from '@airgap/coinlib-core'
+import { AirGapWallet, AirGapWalletStatus } from '@zarclays/zgap-coinlib-core'
 import { Pipe, PipeTransform } from '@angular/core'
 
 @Pipe({

@@ -1,4 +1,4 @@
-import { ProtocolService, SerializerService, sumAirGapTxValues } from '@airgap/angular-core'
+import { ProtocolService, SerializerService, sumAirGapTxValues } from '@zarclays/zgap-angular-core'
 import { Component, Input } from '@angular/core'
 import {
   IACMessageDefinitionObjectV3,
@@ -8,7 +8,7 @@ import {
   ProtocolSymbols,
   SignedTransaction,
   TezosSaplingProtocol
-} from '@airgap/coinlib-core'
+} from '@zarclays/zgap-coinlib-core'
 import BigNumber from 'bignumber.js'
 import { TokenService } from 'src/app/services/token/TokenService'
 import { SecretsService } from 'src/app/services/secrets/secrets.service'

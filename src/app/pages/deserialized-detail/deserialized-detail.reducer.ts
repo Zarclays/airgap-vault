@@ -1,7 +1,7 @@
 // tslint:disable: typedef
 // tslint:disable: max-file-line-count
-import { assertNever, flattened, generateGUID, UIAction, UIActionStatus, UIResource, UIResourceStatus } from '@airgap/angular-core'
-import { IAirGapTransaction } from '@airgap/coinlib-core'
+import { assertNever, flattened, generateGUID, UIAction, UIActionStatus, UIResource, UIResourceStatus } from '@zarclays/zgap-angular-core'
+import { IAirGapTransaction } from '@zarclays/zgap-coinlib-core'
 import { createFeatureSelector, createReducer, createSelector, on } from '@ngrx/store'
 
 import * as fromRoot from '../../app.reducers'

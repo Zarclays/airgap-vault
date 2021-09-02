@@ -1,10 +1,10 @@
 import { Component } from '@angular/core'
 import { AlertController, PopoverController } from '@ionic/angular'
 import { TranslateService } from '@ngx-translate/core'
-import { AirGapWallet } from '@airgap/coinlib-core'
+import { AirGapWallet } from '@zarclays/zgap-coinlib-core'
 import { first } from 'rxjs/operators'
 
-import { ClipboardService } from '@airgap/angular-core'
+import { ClipboardService } from '@zarclays/zgap-angular-core'
 import { ErrorCategory, handleErrorLocal } from '../../../services/error-handler/error-handler.service'
 import { SecretsService } from '../../../services/secrets/secrets.service'
 

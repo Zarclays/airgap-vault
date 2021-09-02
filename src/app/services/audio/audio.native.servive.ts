@@ -1,4 +1,4 @@
-import { PermissionsService, PermissionStatus } from '@airgap/angular-core'
+import { PermissionsService, PermissionStatus } from '@zarclays/zgap-angular-core'
 import { Injectable } from '@angular/core'
 import { Platform } from '@ionic/angular'
 import { Observable } from 'rxjs'

@@ -8,7 +8,7 @@ import { SecureStorageService } from 'src/app/services/secure-storage/secure-sto
 import { SecureStorageServiceMock } from 'src/app/services/secure-storage/secure-storage.mock'
 import { InteractionService } from 'src/app/services/interaction/interaction.service'
 import { createAppSpy } from 'test-config/plugins-mocks'
-import { APP_PLUGIN, DeeplinkService } from '@airgap/angular-core'
+import { APP_PLUGIN, DeeplinkService } from '@zarclays/zgap-angular-core'
 
 describe('UnsignedTransactionComponent', () => {
   let signedTransactionFixture: ComponentFixture<TransactionComponent>

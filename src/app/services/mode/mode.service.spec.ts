@@ -1,4 +1,4 @@
-import { APP_PLUGIN, DeeplinkService } from '@airgap/angular-core'
+import { APP_PLUGIN, DeeplinkService } from '@zarclays/zgap-angular-core'
 import { TestBed } from '@angular/core/testing'
 
 import { createAppSpy } from '../../../../test-config/plugins-mocks'

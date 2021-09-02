@@ -24,7 +24,7 @@ import {
 } from './ionic-mocks'
 import { AppInfoPluginMock, SaplingPluginMock, SplashScreenMock, StatusBarMock } from './plugins-mocks'
 import { StorageMock } from './storage-mock'
-import { APP_CONFIG } from '@airgap/angular-core'
+import { APP_CONFIG } from '@zarclays/zgap-angular-core'
 import { appConfig } from 'src/app/config/app-config'
 
 export class UnitHelper {

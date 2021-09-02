@@ -14,8 +14,8 @@ import {
   SPLASH_SCREEN_PLUGIN,
   STATUS_BAR_PLUGIN,
   UiEventService
-} from '@airgap/angular-core'
-import { AirGapAngularNgRxModule } from '@airgap/angular-ngrx'
+} from '@zarclays/zgap-angular-core'
+import { AirGapAngularNgRxModule } from '@zarclays/zgap-angular-ngrx'
 import { PercentPipe } from '@angular/common'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 import { NgModule } from '@angular/core'

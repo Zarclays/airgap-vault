@@ -1,4 +1,4 @@
-import { AirGapWallet } from '@airgap/coinlib-core'
+import { AirGapWallet } from '@zarclays/zgap-coinlib-core'
 import { UUID } from 'angular2-uuid'
 import { fromSeed } from 'bip32'
 

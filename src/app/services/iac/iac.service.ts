@@ -8,7 +8,7 @@ import {
   RelayMessage,
   UiEventElementsService,
   UiEventService
-} from '@airgap/angular-core'
+} from '@zarclays/zgap-angular-core'
 import {
   AirGapWallet,
   AirGapWalletStatus,
@@ -16,7 +16,7 @@ import {
   IACMessageType,
   MessageSignRequest,
   UnsignedTransaction
-} from '@airgap/coinlib-core'
+} from '@zarclays/zgap-coinlib-core'
 import { Inject, Injectable } from '@angular/core'
 
 import { SignTransactionInfo } from '../../models/sign-transaction-info'

@@ -1,4 +1,4 @@
-import { AirGapWallet, AirGapWalletStatus } from '@airgap/coinlib-core'
+import { AirGapWallet, AirGapWalletStatus } from '@zarclays/zgap-coinlib-core'
 import { Component, OnInit } from '@angular/core'
 import { Platform } from '@ionic/angular'
 import { BehaviorSubject, Observable } from 'rxjs'

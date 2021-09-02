@@ -1,4 +1,4 @@
-import { PermissionsService, PermissionTypes } from '@airgap/angular-core'
+import { PermissionsService, PermissionTypes } from '@zarclays/zgap-angular-core'
 import { ChangeDetectorRef, Component, ElementRef, OnInit, ViewChild } from '@angular/core'
 import { Platform } from '@ionic/angular'
 import { auditTime } from 'rxjs/operators'
