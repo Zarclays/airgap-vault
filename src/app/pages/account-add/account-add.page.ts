@@ -35,6 +35,7 @@ export class AccountAddPage {
     private readonly alertController: AlertController
   ) {
     this.protocolService.getActiveProtocols().then((protocols: ICoinProtocol[]) => {
+      console.log('protocols: ', protocols)
       this.protocols = protocols
       this.onSelectedProtocolChange(this.navigationService.getState().protocol || this.protocols[0])
     })
