@@ -35,7 +35,7 @@ export class AccountAddPage {
     private readonly alertController: AlertController
   ) {
     this.protocolService.getActiveProtocols().then((protocols: ICoinProtocol[]) => {
-      console.log('protocols: ', protocols)
+      // console.log('protocols: ', protocols)
       this.protocols = protocols
       this.onSelectedProtocolChange(this.navigationService.getState().protocol || this.protocols[0])
     })
@@ -68,10 +68,13 @@ export class AccountAddPage {
   }
 
   private async addWalletAndReturnToAddressPage(): Promise<void> {
+    // this.protocols.filter(ff=>ff.identifier!="celo")
     const addAccount = () => {
       this.secretsService
         .addWallets(
           this.protocols.map((protocol: ICoinProtocol) => {
+            //.filter(ff=>ff.identifier!="celo")
+            console.log('protocol p: ', protocol)
             const isSelected: boolean = this.selectedProtocol.identifier === protocol.identifier
 
             return {
