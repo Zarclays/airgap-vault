@@ -38,7 +38,7 @@
       class="empty-list"
       *ngIf="wallets$ && (wallets$ | async | walletFilter: { status: AirGapWalletStatus.ACTIVE, symbol: symbolFilter }).length === 0"
     >
-      <img src="./assets/img/no-wallet-added-onboarding.svg" />
+      <img src="./assets/img/onboarding.png" />
       <p>
         <strong>{{ 'tab-wallets.empty-state_text' | translate }}</strong>
       </p>

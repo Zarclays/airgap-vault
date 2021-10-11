@@ -6,6 +6,13 @@ ion-content {
   --ion-text-color: #817f7f;
 }
 
+ion-item {
+  background: #fff;
+}
+ion-label {
+  --ion-text-color: #1442a8;
+}
+
 ion-button {
   --ion-color-primary: #ffffff;
 }
@@ -22,6 +29,47 @@ ion-fab ion-button {
   --ion-color-secondary: #fff;
   --ion-color-secondary-contrast: #1442a8;
   opacity: 1;
+}
+airgap-touch-entropy p {
+  color: #fff;
+  z-index: 2;
+}
+
+ion-tabs ion-text {
+  --ion-color-secondary: #fff;
+}
+
+ion-fab-button {
+  --ion-color-secondary: #1442a8;
+  --ion-color-secondary-contrast: #fff;
+}
+
+ion-footer ion-toolbar {
+  border-top: 1px solid #1442a833;
+}
+ion-footer ion-button {
+  --ion-color-primary: #1442a8;
+}
+
+ion-item ion-icon {
+  --ion-text-color-rgb: 20, 66, 168;
+}
+ion-button ion-icon {
+  --ion-text-color-rgb: 20, 66, 168;
+}
+.alert-head {
+  border-bottom: 1px solid #1442a833;
+  color: #1442a8;
+}
+.alert-title {
+  color: #1442a8;
+}
+.alert-message {
+  padding-top: 15px !important;
+}
+
+ion-toolbar {
+  border-bottom: 1px solid #1442a833;
 }
 
 /** Ionic CSS Variables **/
