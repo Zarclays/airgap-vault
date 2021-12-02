@@ -9,7 +9,6 @@ export interface WalletsNotMigratedAlert {
 export interface ExcludedLegacyAccountsAlert {
   type: 'excludedLegacyAccounts'
   shareUrl: IACMessageDefinitionObjectV3[]
-  interactionSetting: InteractionSetting
 }
 
 export interface UnknownErrorAlert {
