@@ -1,4 +1,5 @@
-import { IACMessageDefinitionObjectV3 } from '@zarclays/zgap-coinlib-core'
+import { ClipboardService } from 'zarclays/zgap-coinlib-core'
+import { IACMessageDefinitionObjectV3 } from 'zarclays/zgap-coinlib-core'
 import { Component } from '@angular/core'
 
 import { NavigationService } from '../../services/navigation/navigation.service'
@@ -16,11 +17,15 @@ export class AccountSharePage {
 
   displayRawData: boolean = false
 
-  constructor(private readonly navigationService: NavigationService) {
+  constructor(private readonly navigationService: NavigationService, private readonly clipboardService: ClipboardService) {
     this.interactionUrl = this.navigationService.getState().interactionUrl
   }
 
   public done(): void {
     this.navigationService.routeToAccountsTab().catch(handleErrorLocal(ErrorCategory.IONIC_NAVIGATION))
   }
+
+  public copyToClipboard(): void {
+    this.clipboardService.copyAndShowToast(JSON.stringify(this.interactionUrl))
+}
 }
