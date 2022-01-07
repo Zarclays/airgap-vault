@@ -12,7 +12,7 @@ import {
   TezosSaplingProtocolOptions,
   TezosShieldedTezProtocolConfig
 } from '@zarclays/zgap-coinlib-core/protocols/tezos/sapling/TezosSaplingProtocolOptions'
-} from '@zarclays/zgap-coinlib-core/protocols/tezos/sapling/TezosSaplingProtocolOptions'
+
 import { TezosShieldedTezProtocol } from '@zarclays/zgap-coinlib-core/protocols/tezos/sapling/TezosShieldedTezProtocol'
 import { HttpClient } from '@angular/common/http'
 import { AfterViewInit, Component, Inject, NgZone } from '@angular/core'

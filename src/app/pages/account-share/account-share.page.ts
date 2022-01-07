@@ -1,5 +1,5 @@
-import { ClipboardService } from 'zarclays/zgap-coinlib-core'
-import { IACMessageDefinitionObjectV3 } from 'zarclays/zgap-coinlib-core'
+import {  ClipboardService } from '@zarclays/zgap-angular-core'
+import { IACMessageDefinitionObjectV3 } from '@zarclays/zgap-coinlib-core'
 import { Component } from '@angular/core'
 
 import { NavigationService } from '../../services/navigation/navigation.service'

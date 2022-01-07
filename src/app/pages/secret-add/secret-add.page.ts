@@ -7,7 +7,7 @@ import { NavigationService } from '../../services/navigation/navigation.service'
 import { SecretsService } from '../../services/secrets/secrets.service'
 
 // import { TranslateService } from '@ngx-translate/core'
-// import { ClipboardService } from '@airgap/angular-core'
+// import { ClipboardService } from '@zarclays/zgap-angular-core'
 
 @Component({
   selector: 'airgap-secret-add',

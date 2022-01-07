@@ -1,4 +1,4 @@
-import { ClipboardService } from '@airgap/angular-core'
+import { ClipboardService } from '@zarclays/zgap-angular-core'
 import { Component, OnInit } from '@angular/core'
 import { AlertController } from '@ionic/angular'
 import { ErrorCategory, handleErrorLocal, LocalErrorLogger } from 'src/app/services/error-handler/error-handler.service'

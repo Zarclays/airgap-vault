@@ -1,4 +1,4 @@
-import { ClipboardService } from '@airgap/angular-core'
+import { ClipboardService } from '@zarclays/zgap-angular-core'
 import { Component, EventEmitter, Input, OnDestroy, OnInit, Output } from '@angular/core'
 
 import * as bip39 from 'bip39'

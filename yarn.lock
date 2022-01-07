@@ -2,31 +2,6 @@
 # yarn lockfile v1
 
 
-"@airgap/angular-core@0.0.21":
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/@airgap/angular-core/-/angular-core-0.0.21.tgz#10e7d4dbef9d6573a4e40c78d8ab8090f5390d18"
-  integrity sha512-9zh0/hs0ble8Ms3xfNBRb37HSCJTUcv3Jq23s4nW7U/88j2ZkTsgnbAr2bx+r16oanrdlkw9+/552TwkFVKMSw==
-  dependencies:
-    tslib "^2.2.0"
-
-"@airgap/angular-ngrx@0.0.21":
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/@airgap/angular-ngrx/-/angular-ngrx-0.0.21.tgz#fa84be8baa11fe648a41062e1b42abd2aea884e4"
-  integrity sha512-UeQ9Vp5YsJjT+lgq+bNWqXZF8vTutNarXnOpiqvsQXh34XWPA1aGr5I+ajk9N2E4F4K7DRvRu7Az3SQtBIZWQw==
-  dependencies:
-    tslib "^2.2.0"
-
-"@airgap/coinlib-core@0.12.3":
-  version "0.12.3"
-  resolved "https://registry.yarnpkg.com/@airgap/coinlib-core/-/coinlib-core-0.12.3.tgz#18759298509b02f0922373218cd4a8001825ce69"
-  integrity sha512-jgZdrTtu+WdMT0ZJkodc6N6E6CyV2okAl/4tYf9zzG9atVo//kAXePXth6UwkSQ/laM8i/dibEgkx+YlUjfTgg==
-  dependencies:
-    "@airgap/sapling-wasm" "0.0.5"
-    "@polkadot/util" "2.0.1"
-    "@polkadot/wasm-crypto" "0.20.1"
-    bitcoinjs-lib "5.2.0"
-    libsodium-wrappers "0.7.6"
-
 "@airgap/sapling-wasm@0.0.5":
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/@airgap/sapling-wasm/-/sapling-wasm-0.0.5.tgz#83444fa7792beb383d494e447458be50d1e74577"
@@ -1887,6 +1862,31 @@
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
   integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
 
+"@zarclays/zgap-angular-core@0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@zarclays/zgap-angular-core/-/zgap-angular-core-0.2.8.tgz#a0f8bd2971f70c69fa6edd8e5bef964c366c5ec4"
+  integrity sha512-M4MhDWySUwWDABXzWeT1/uyHyngO1s+pRPx3tB3fg90Qo7VrDhlaEocEUUm51vSR3QQSEhb14Oe6K5rMRwXsew==
+  dependencies:
+    tslib "^2.2.0"
+
+"@zarclays/zgap-angular-ngrx@^0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@zarclays/zgap-angular-ngrx/-/zgap-angular-ngrx-0.2.8.tgz#87d3fa0cbe76df795ec2d465c0e1329a2f2f8e65"
+  integrity sha512-bhWmYQHCcZgewBh5D0JaAQ9kMVHBfngEx3dEDRvxraboJEZRbByBF1hC+L09+9W/Wnx7dJc5OwLGZLjBdLZ+Zg==
+  dependencies:
+    tslib "^2.2.0"
+
+"@zarclays/zgap-coinlib-core@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@zarclays/zgap-coinlib-core/-/zgap-coinlib-core-0.14.0.tgz#661a17bc847a7a4753b733b885a75a52f7df19c6"
+  integrity sha512-/VphY66v+WCm94RRihkPpSlVL+sG/eor0a8QdetEZ9MwnFJHLKGY0EowCliXhtoL0hDtFeARcs6EMqWWkch7WA==
+  dependencies:
+    "@airgap/sapling-wasm" "0.0.5"
+    "@polkadot/util" "2.0.1"
+    "@polkadot/wasm-crypto" "0.20.1"
+    bitcoinjs-lib "5.2.0"
+    libsodium-wrappers "0.7.6"
+
 "@zxing/browser@0.0.8":
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/@zxing/browser/-/browser-0.0.8.tgz#20dfefe84c9c5dac54dcfb8900b88cbc202912dd"
@@ -2274,6 +2274,13 @@ aws4@^1.8.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
+
+axios@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.24.0.tgz#804e6fa1e4b9c5288501dd9dff56a7a0940d20d6"
+  integrity sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==
+  dependencies:
+    follow-redirects "^1.14.4"
 
 babel-loader@8.2.2:
   version "8.2.2"
@@ -4667,6 +4674,11 @@ follow-redirects@^1.0.0:
   version "1.14.4"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.4.tgz#838fdf48a8bbdd79e52ee51fb1c94e3ed98b9379"
   integrity sha512-zwGkiSXC1MUJG/qmeIFH2HBJx9u0V46QGUe3YR1fXG8bXQxq7fLj0RjLZQ5nubr9qNJUZrH+xUcwXEoXNpfS+g==
+
+follow-redirects@^1.14.4:
+  version "1.14.6"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.6.tgz#8cfb281bbc035b3c067d6cd975b0f6ade6e855cd"
+  integrity sha512-fhUl5EwSJbbl8AR+uYL2KQDxLkdSjZGR36xy46AO7cOMTrCMON6Sa28FmAnC2tRTDbd/Uuzz3aJBv7EBN7JH8A==
 
 for-in@^1.0.2:
   version "1.0.2"

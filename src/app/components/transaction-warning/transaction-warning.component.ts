@@ -1,5 +1,5 @@
-import { IAirGapTransaction } from '@airgap/coinlib-core'
-import { AirGapTransactionWarning, AirGapTransactionWarningType } from '@airgap/coinlib-core/interfaces/IAirGapTransaction'
+import { IAirGapTransaction } from '@zarclays/zgap-coinlib-core'
+import { AirGapTransactionWarning, AirGapTransactionWarningType } from '@zarclays/zgap-coinlib-core/interfaces/IAirGapTransaction'
 import { Component, Input } from '@angular/core'
 
 @Component({
